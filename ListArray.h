@@ -28,7 +28,7 @@ private:
     }
 
 public:
-:!g++ -c ListArray.h    // Constructor por defecto
+    // Constructor por defecto
     ListArray() {
         arr = new T[MINSIZE];
         max = MINSIZE;
